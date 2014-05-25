@@ -1,6 +1,19 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+#makeCacheMatrix() prepares a list (similar to object) with four methods:
+#to set/get matrix to invert 
+#to set/get the resulting inverted matrix
+
+#cacheSolve() finds an inverted matrix. Input should be the list prepared by function
+#described above. It returns the inverted value. If matrix hasn't changed
+#it will return the cached value immediately
+
+#test() is a unit test to verify implementation
+#it creates a random matrix and verifies that result provided by
+#custom function is equal to result of solve()
+#it also checks the execution time of cached function - should be ~zero
+
 ## Write a short comment describing this function
 # Prepare a special list containing four elements:
 # 1: Method set() to set matrix to invert
